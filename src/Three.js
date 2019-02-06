@@ -4,6 +4,7 @@ export { WebGLMultisampleRenderTarget } from './renderers/WebGLMultisampleRender
 export { WebGLRenderTargetCube } from './renderers/WebGLRenderTargetCube.js';
 export { WebGLRenderTarget } from './renderers/WebGLRenderTarget.js';
 export { WebGLRenderer } from './renderers/WebGLRenderer.js';
+export { WebGL2Renderer } from './renderers/WebGL2Renderer.js';
 export { ShaderLib } from './renderers/shaders/ShaderLib.js';
 export { UniformsLib } from './renderers/shaders/UniformsLib.js';
 export { UniformsUtils } from './renderers/shaders/UniformsUtils.js';
@@ -151,3 +152,5 @@ export { ShapeUtils } from './extras/ShapeUtils.js';
 export { WebGLUtils } from './renderers/webgl/WebGLUtils.js';
 export * from './constants.js';
 export * from './Three.Legacy.js';
+export { TrackballControls } from '../examples/js/controls/TrackballControls.js';
+export { OrthographicTrackballControls } from '../examples/js/controls/OrthographicTrackballControls.js';
